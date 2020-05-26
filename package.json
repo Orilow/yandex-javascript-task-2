@@ -1,0 +1,20 @@
+{
+  "private": true,
+  "main": "robbery.js",
+  "scripts": {
+    "deps": "npm ci",
+    "lint": "eslint .",
+    "test": "npm run lint && mocha *.spec.js --exit"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm run test"
+    }
+  },
+  "dependencies": {
+    "eslint": "6.5.1",
+    "eslint-config-hrundel": "latest",
+    "husky": "3.0.9",
+    "mocha": "6.2.2"
+  }
+}

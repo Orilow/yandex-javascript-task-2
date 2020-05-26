@@ -1,0 +1,13 @@
+# OSX folder view configuration files
+.DS_Store
+
+# JetBrains IDE projects files
+.idea
+
+# VSCode projects files
+.vscode
+jsconfig.json
+
+# Node.js artifact
+/node_modules
+*.log
